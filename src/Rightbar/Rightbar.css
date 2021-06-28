@@ -1,0 +1,35 @@
+.rightbar{
+    display: flex;
+    flex-direction: column;
+    flex: 0.20;
+    margin-top: 10px;
+    height: 100%;
+    /* position: fixed;
+    right: 0; */
+}
+.rightbar>h4{
+    color: gray;
+}
+.rightbar>hr{
+    margin-left: 0;
+    margin-right: 0;
+}
+.rightbar__icon{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.rightbar__icon>.MuiSvgIcon-root{
+    border-radius: 100px;
+    background-color: lightgray;
+    padding: 8px;
+}
+.rightbar__icon>h5{
+    margin-left: 10px;
+}
+.rightbar__icon:hover{
+    border-radius: 10px;
+    background-color: rgb(219, 219, 219);
+    cursor: pointer;
+}

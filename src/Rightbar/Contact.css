@@ -1,0 +1,28 @@
+.contact{
+    display: flex;
+    flex:0.30;
+    flex-direction: column;
+}
+.contact__contacts{
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    color: rgb(105, 105, 105);
+}
+
+.contact__icons{
+    display: flex;
+    margin-left: 20px;
+}
+.contact__icons>.MuiSvgIcon-root{
+    margin-left: 10px;
+    color: gray;
+}
+.contact__avatar{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.contact__avatar>h4{
+    margin-left: 10px;
+}
