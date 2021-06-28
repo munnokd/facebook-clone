@@ -1,0 +1,13 @@
+.storyFb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.postUpload{
+    flex: 1;
+    padding: 50px 2vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex:0.60;
+}

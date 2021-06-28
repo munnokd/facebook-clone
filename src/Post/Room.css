@@ -1,0 +1,34 @@
+.room{
+    display: flex;
+    background-color:white ;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+    box-shadow: 4px 4px 7px -7px rgba(0,0,0,0.75);
+}
+/* #f1f2f5 */
+.room__create{
+    border: 1px solid lightblue;
+    border-radius: 100px;
+    background-color:#f3f3f3 ;
+    padding: 10px;
+    display: flex;
+}
+.room__create:hover{
+    cursor: pointer;
+    background-color: white;
+}
+.room__create>h4{
+    margin-left: 10px;
+    color: #2e81f4;
+}
+.room__create__icon{
+    color: rgb(240, 0, 228);
+}
+.room__avatar1{
+    margin-left: 10px;
+}
+.room__avatar{
+    margin-left: 10px;
+}

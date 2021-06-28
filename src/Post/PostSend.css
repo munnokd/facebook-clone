@@ -1,0 +1,67 @@
+.postSend{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 7px -7px rgba(0,0,0,0.75);
+}
+hr{
+    border: 0.3px solid lightgray;
+}
+.postSend__up{
+    display: flex;
+    align-items: center;
+    margin-bottom:10px;
+}
+.postSend__up>form{
+    flex: 1;
+    display: flex;
+}
+
+.postSend__up__input1>input{
+    border: none;
+    outline-width: 0;
+    background-color: #f1f2f5;
+    border-radius: 100px;
+    margin-left: 10px;
+    width: 30vw;
+    padding: 10px;
+}
+.postSend__up__input2>input{
+    border: none;
+    outline-width: 0;
+    background-color: #f1f2f5;
+    border-radius: 100px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.postSend__up>form>button{
+    margin-left: 10px;
+    border-radius: 30px;
+    width: 60px;
+    border: none;
+    color: white;
+    background-color:#2e81f4 ;
+    cursor: pointer;
+}
+.postSend__down{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: -5px;
+    justify-content: space-evenly;
+}
+.postSend__down__icon{
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.postSend__down__icon:hover{
+    background-color: #f1f2f5;
+    border-radius: 10px;
+}
+.postSend__down__icon>p{
+    margin-left: 10px;
+}
